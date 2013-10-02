@@ -22,16 +22,16 @@ from setuptools import setup, find_packages
 
 
 setup(name='Barmaan',
-      version='2.67.0-rc2',
+      version='2.67.0',
       description='Barmaan is a very simple, easy to use yet powerful monitoring tool.',
-      author='Sameer Rahmani',
-      author_email='lxsameer@gnu.org',
+      author='Sameer Rahmani, Shervin Ara,',
+      author_email='lxsameer@gnu.org, shervin.ara@gmail.com',
       url='http://barmaan.yellowen.com/',
       download_url="http://barmaan.yellowen.com/downloads/",
       keywords="Monitoring",
       license='GPL v2',
       packages=find_packages(),
-      install_requires=['Twisted', '', '', ],
+      install_requires=['Twisted',],
       classifiers=[
           'Development Status :: 5 - Production/Stable',
           'Environment :: Console',
